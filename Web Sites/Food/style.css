@@ -313,8 +313,22 @@ h1 {
   padding: 0;
 }
 
-.fa-angle-left,
 .fa-angle-right {
   color: red;
   background-color: blueviolet;
+  right: 10px;
+  padding-left: 25px;/*  */
+  visibility: visible;
+  padding-top: 80px ;
+  /* padding: 60px 10px; */
+  position: absolute;
+  /* z-index:auto;
+  top: calc(70% - 78px); */
+}
+
+.fa-angle-left{
+  color: red;
+  background-color: blueviolet;
+  right: 10px;
+  padding-left: 25px;
 }
