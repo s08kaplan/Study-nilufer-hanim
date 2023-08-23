@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+
+
+#upper-bar{
+    background-color: gainsboro;
+}
+
+#olan-biten{
+    margin-left: 400px;
+}
+
+#ana-sayfa{
+    margin-left: 200px;
+} 
+
+#bildirimler{
+    text-align: right;
+    margin-right: 200px;
+    margin-left: 8px;
+}
+
+#tarif-defterim{
+    margin-left: 8px;
+}
+
+
+
+#search-bar-div img{
+    margin-left: 200px;
+}
+
+#search-bar{
+    margin-left: 50px;
+    width: 250px;
+}
+
+#search-bar-div button{
+    margin-left: 10px;
+}
+
+#tarif-gonder-button{
+    width: 160px;
+}
+
+#giris-button{
+    width: 120px;
+}
+
+
+
+.nav{
+    border-bottom: solid yellow 5px;
+    border-top: solid red;
+    background-color: red;
+}
+
+#menu li{
+    display: inline;
+    /* margin: 0 8px; */
+}
+
+#menu ul{
+}
+
+#profilo{
+    margin-left: 200px;
+    padding: 5px;
+    border-right: solid grey;
+}
+
+li#tarifler, li#videolar, li#menuler, li#trend, li#ne-pisirsem, li#blog, li#listeler, li#kac-kalori{
+    margin-right: 8px;
+    padding: 5px;
+    border-right: solid grey;
+}
