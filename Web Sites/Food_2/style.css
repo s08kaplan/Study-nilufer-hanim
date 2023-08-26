@@ -1,0 +1,10 @@
+.upper-bar{
+    background-color: rgb(212, 207, 207);
+    margin: 0;
+}
+
+.inner-upper-bar{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
