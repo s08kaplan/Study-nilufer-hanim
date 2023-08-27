@@ -52,7 +52,7 @@ body{
 .inner-search-bar-actions{
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 85%;
     float: right;
     padding-left: 10%;
     justify-content: end;
@@ -65,14 +65,14 @@ body{
 }
 
 .search-bar input[type=text] {
-    padding: 3px;
+    padding: 10px;
     font-size: 15px;
     border: none;
 }
 
 .search-container button {
     /* float: right; */
-    padding: 4px 5px;
+    padding: 10px 11px;
     background: #ddd;
     font-size: 15px;
     border: none;
@@ -91,9 +91,10 @@ body{
 
 .tarif-gonder-button{
     width: fit-content;
-    padding: 1%;
+    padding-right: 4px;
     background-color: #fbb149fe;
-    margin-top:8px
+    margin-top:8px;
+    border-radius: 5px;
 }
 
 .tarif-gonder-button-yazi{
@@ -103,10 +104,10 @@ body{
 
 .giris-yap-button{
     width: fit-content;
-    padding: 1%;
+    padding-right: 4px;
     background-color: white;
-    margin-top:8px
-    
+    margin-top:8px;
+    border-radius: 5px;
 }
 
 .fa-user-circle, .fa-apple-alt{
@@ -147,6 +148,7 @@ body{
 .inner-nav ul{
     padding-left: 0px;
     margin-bottom: 0px;
+    margin-top: 8px;
 }
 
 .inner-nav li {
@@ -167,4 +169,16 @@ body{
 .inner-nav i{
     font-size: x-large;
     color: #fbb149fe;
+}
+
+
+/*main*/
+.main{
+    background-color: #efefef;
+}
+
+.inner-main{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
 }
