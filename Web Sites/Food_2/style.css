@@ -36,7 +36,6 @@ body{
     width: 70%;
     margin: 0 auto;
     overflow: hidden;
-    background-color: brown;  /*calisirken gormek icin*/
 }
 
 .inner-search-bar{
@@ -78,6 +77,8 @@ body{
     font-size: 15px;
     border: none;
     cursor: pointer;
+    background-color: rgb(234, 55, 55);
+    border-radius: 0 5px 5px 0;
  }
 
 .search-container button:hover {
@@ -91,31 +92,44 @@ body{
 .tarif-gonder-button{
     width: fit-content;
     padding: 1%;
-}
-
-.fa-apple-alt{
-    float: left;
-    font-size: x-large;
-    padding: 5px;
+    background-color: #fbb149fe;
 }
 
 .tarif-gonder-button-yazi{
     float: right;
+    padding-top: 4%;
 }
 
 .giris-yap-button{
     width: fit-content;
     padding: 1%;
+    background-color: white;
     
 }
 
-.fa-user-circle{
+.fa-user-circle, .fa-apple-alt{
     float: left;
     font-size: xx-large;
-    padding: 5px;
+    padding: 10px;
 }
 
 .giris-yap-button-yazi{
     float: right;
     margin: 0;
+    padding-top: 10%;
+}
+
+.tarif-gonder-button, .search-container{
+    margin-right: 20px;
+}
+
+
+/*nav*/
+.nav{
+    background-color: rgb(234, 55, 55);
+    border-bottom: solid #fbb149fe 5px;
+}
+
+.inner-nav li{
+    display: inline;
 }
