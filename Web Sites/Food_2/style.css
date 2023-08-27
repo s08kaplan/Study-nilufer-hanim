@@ -51,8 +51,12 @@ body{
 }
 
 .inner-search-bar-actions{
+    display: flex;
+    align-items: center;
     width: 70%;
     float: right;
+    padding-left: 10%;
+    justify-content: end;
 }
 
 .search-container{
@@ -63,16 +67,13 @@ body{
 
 .search-bar input[type=text] {
     padding: 3px;
-    margin-top: 8px;
     font-size: 15px;
     border: none;
 }
 
 .search-container button {
     /* float: right; */
-    padding: 3px 5px;
-    /* margin-top: 8px;
-    margin-right: 16px; */
+    padding: 4px 5px;
     background: #ddd;
     font-size: 15px;
     border: none;
@@ -85,4 +86,36 @@ body{
 
 .search-bar input[type=text] {
     border: 1px solid #ccc;  
+}
+
+.tarif-gonder-button{
+    width: fit-content;
+    padding: 1%;
+}
+
+.fa-apple-alt{
+    float: left;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.tarif-gonder-button-yazi{
+    float: right;
+}
+
+.giris-yap-button{
+    width: fit-content;
+    padding: 1%;
+    
+}
+
+.fa-user-circle{
+    float: left;
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.giris-yap-button-yazi{
+    float: right;
+    margin: 0;
 }
