@@ -1,10 +1,88 @@
+/*body-all elements*/
+body{
+    margin: 0;
+}
+
+/*upper-bar*/
 .upper-bar{
     background-color: rgb(212, 207, 207);
     margin: 0;
+    overflow: hidden;  /* Arka plan rengini görünür hale getirmek için, iç içe geçmiş öğelerin içindeki içeriği kapsayan bir öğeye overflow: hidden; özelliğini ekleyebilirsiniz. Böylece, içeriğin boyutlarına göre arka plan rengi görünecektir. */
 }
 
 .inner-upper-bar{
     text-align: center;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.inner-upper-bar-sag,
+.inner-upper-bar-sol {
+    display: inline-block; /* Öğeleri yatayda hizalar */
+    vertical-align: middle; /*İçeriği dikeyde ortalar*/
+} 
+
+.inner-upper-bar-sag{
+    float: right;
+}
+
+.inner-upper-bar-sol{
+    float: left;
+}
+
+/*search-bar div*/
+.search-bar{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: brown;  /*calisirken gormek icin*/
+}
+
+.inner-search-bar{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.inner-search-bar img{
+    width: 20%;
+    float: left;
+}
+
+.inner-search-bar-actions{
+    width: 70%;
+    float: right;
+}
+
+.search-container{
+    /* width: 5%; */
+    display: inline;
+    float: left;
+}
+
+.search-bar input[type=text] {
+    padding: 3px;
+    margin-top: 8px;
+    font-size: 15px;
+    border: none;
+}
+
+.search-container button {
+    /* float: right; */
+    padding: 3px 5px;
+    /* margin-top: 8px;
+    margin-right: 16px; */
+    background: #ddd;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+ }
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+.search-bar input[type=text] {
+    border: 1px solid #ccc;  
 }
