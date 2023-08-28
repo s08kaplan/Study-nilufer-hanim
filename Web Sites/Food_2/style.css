@@ -207,15 +207,31 @@ body {
 .inner-main-menu-sag ul {
   list-style-type: none;
   margin: 0;
+  padding-left: 2%;
 }
 
 .inner-main-menu-sag li {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 5px 0;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #fbfbfb;
 }
 
 .inner-main-menu-sag img {
   width: 50%;
+  float: left;
+}
+
+.inner-main-menu-sag p{
+  float:inline-end;
+  font-size: smaller;
+  margin: 1%;
+}
+
+.card-baslik{
+  color: black;
+}
+
+.card-metin{
+  color: #868686;
 }
