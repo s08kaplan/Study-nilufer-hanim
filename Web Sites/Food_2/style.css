@@ -1,184 +1,221 @@
 /*body-all elements*/
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
 /*upper-bar*/
-.upper-bar{
-    background-color: rgb(212, 207, 207);
-    margin: 0;
-    overflow: hidden;  /* Arka plan rengini görünür hale getirmek için, iç içe geçmiş öğelerin içindeki içeriği kapsayan bir öğeye overflow: hidden; özelliğini ekleyebilirsiniz. Böylece, içeriğin boyutlarına göre arka plan rengi görünecektir. */
+.upper-bar {
+  background-color: rgb(212, 207, 207);
+  margin: 0;
+  overflow: hidden; /* Arka plan rengini görünür hale getirmek için, iç içe geçmiş öğelerin içindeki içeriği kapsayan bir öğeye overflow: hidden; özelliğini ekleyebilirsiniz. Böylece, içeriğin boyutlarına göre arka plan rengi görünecektir. */
 }
 
-.inner-upper-bar{
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
+.inner-upper-bar {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .inner-upper-bar-sag,
 .inner-upper-bar-sol {
-    display: inline-block; /* Öğeleri yatayda hizalar */
-    vertical-align: middle; /*İçeriği dikeyde ortalar*/
-} 
-
-.inner-upper-bar-sag{
-    float: right;
+  display: inline-block; /* Öğeleri yatayda hizalar */
+  vertical-align: middle; /*İçeriği dikeyde ortalar*/
 }
 
-.inner-upper-bar-sol{
-    float: left;
+.inner-upper-bar-sag {
+  float: right;
+}
+
+.inner-upper-bar-sol {
+  float: left;
 }
 
 /*search-bar div*/
-.search-bar{
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-    overflow: hidden;
+.search-bar {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.inner-search-bar{
-    display: flex;
-    align-items: center;
-    margin: 0;
+.inner-search-bar {
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
-.inner-search-bar img{
-    width: 12%;
-    float: left;
+.inner-search-bar img {
+  width: 12%;
+  float: left;
 }
 
-.inner-search-bar-actions{
-    display: flex;
-    align-items: center;
-    width: 85%;
-    float: right;
-    padding-left: 10%;
-    justify-content: end;
+.inner-search-bar-actions {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  float: right;
+  padding-left: 10%;
+  justify-content: end;
 }
 
-.search-container{
-    /* width: 5%; */
-    display: inline;
-    float: left;
+.search-container {
+  /* width: 5%; */
+  display: inline;
+  float: left;
 }
 
-.search-bar input[type=text] {
-    padding: 10px;
-    font-size: 15px;
-    border: none;
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 15px;
+  border: none;
 }
 
 .search-container button {
-    /* float: right; */
-    padding: 10px 11px;
-    background: #ddd;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    background-color: rgb(234, 55, 55);
-    border-radius: 0 5px 5px 0;
- }
+  /* float: right; */
+  padding: 10px 11px;
+  background: #ddd;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(234, 55, 55);
+  border-radius: 0 5px 5px 0;
+}
 
 .search-container button:hover {
-    background: #ccc;
+  background: #ccc;
 }
 
-.search-bar input[type=text] {
-    border: 1px solid #ccc;  
+.search-bar input[type="text"] {
+  border: 1px solid #ccc;
 }
 
-.tarif-gonder-button{
-    width: fit-content;
-    padding-right: 4px;
-    background-color: #fbb149fe;
-    margin-top:8px;
-    border-radius: 5px;
+.tarif-gonder-button {
+  width: fit-content;
+  padding-right: 4px;
+  background-color: #fbb149fe;
+  margin-top: 8px;
+  border-radius: 5px;
 }
 
-.tarif-gonder-button-yazi{
-    float: right;
-    padding-top: 4%;
+.tarif-gonder-button-yazi {
+  float: right;
+  padding-top: 4%;
 }
 
-.giris-yap-button{
-    width: fit-content;
-    padding-right: 4px;
-    background-color: white;
-    margin-top:8px;
-    border-radius: 5px;
+.giris-yap-button {
+  width: fit-content;
+  padding-right: 4px;
+  background-color: white;
+  margin-top: 8px;
+  border-radius: 5px;
 }
 
-.fa-user-circle, .fa-apple-alt{
-    float: left;
-    font-size: xx-large;
-    padding: 10px;
+.fa-user-circle,
+.fa-apple-alt {
+  float: left;
+  font-size: xx-large;
+  padding: 10px;
 }
 
-.giris-yap-button-yazi{
-    float: right;
-    margin: 0;
-    padding-top: 10%;
+.giris-yap-button-yazi {
+  float: right;
+  margin: 0;
+  padding-top: 10%;
 }
 
-.tarif-gonder-button, .search-container{
-    margin-right: 20px;
+.tarif-gonder-button,
+.search-container {
+  margin-right: 20px;
 }
-
 
 /*nav*/
-.nav{
-    background-color: rgb(215, 2, 2);
-    border-bottom: solid #fbb149fe 5px;
+.nav {
+  background-color: rgb(215, 2, 2);
+  border-bottom: solid #fbb149fe 5px;
 }
 
-.inner-nav{
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
+.inner-nav {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
 }
-.inner-nav li{
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-    width: 10%;
+.inner-nav li {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  width: 10%;
 }
 
-.inner-nav ul{
-    padding-left: 0px;
-    margin-bottom: 0px;
-    margin-top: 8px;
+.inner-nav ul {
+  padding-left: 0px;
+  margin: 8px -30px 0px -30px;
 }
 
 .inner-nav li {
-    border-right: solid 2px rgb(255, 106, 0);
+  border-right: solid 2px rgb(255, 106, 0);
 }
 
-.inner-nav-profilo{
-    background-color: rgb(2, 56, 203);
-    color: whitesmoke;
-    font-size: x-small;
+.inner-nav-profilo {
+  background-color: rgb(2, 56, 203);
+  color: whitesmoke;
+  font-size: x-small;
 }
 
-.inner-nav p{
-    font-size: x-small;
-    color: whitesmoke;
+.inner-nav p {
+  font-size: x-small;
+  color: whitesmoke;
 }
 
-.inner-nav i{
-    font-size: x-large;
-    color: #fbb149fe;
+.inner-nav i {
+  font-size: x-large;
+  color: #fbb149fe;
 }
-
 
 /*main*/
-.main{
-    background-color: #efefef;
+.main {
+  background-color: #efefef;
 }
 
-.inner-main{
-    width: 70%;
-    text-align: center;
-    margin: 0 auto;
+.inner-main {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.large-reklam img {
+  width: 100%;
+  margin: 1% auto;
+}
+
+.inner-main-menu {
+  overflow: hidden;
+}
+
+.inner-main-menu-sol {
+  width: 70%;
+  float: left;
+}
+
+.inner-main-menu-sol img {
+  width: 100%;
+}
+
+.inner-main-menu-sag {
+  overflow: hidden;
+}
+
+.inner-main-menu-sag ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.inner-main-menu-sag li {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px 0;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.inner-main-menu-sag img {
+  width: 50%;
 }
