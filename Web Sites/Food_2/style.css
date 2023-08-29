@@ -3,9 +3,10 @@ body {
   margin: 0;
 }
 
+
 /*upper-bar*/
 .upper-bar {
-  background-color: rgb(212, 207, 207);
+  background-color: #f0f0f0;
   margin: 0;
   overflow: hidden; /* Arka plan rengini görünür hale getirmek için, iç içe geçmiş öğelerin içindeki içeriği kapsayan bir öğeye overflow: hidden; özelliğini ekleyebilirsiniz. Böylece, içeriğin boyutlarına göre arka plan rengi görünecektir. */
 }
@@ -29,6 +30,7 @@ body {
 .inner-upper-bar-sol {
   float: left;
 }
+
 
 /*search-bar div*/
 .search-bar {
@@ -128,6 +130,7 @@ body {
   margin-right: 20px;
 }
 
+
 /*nav*/
 .nav {
   background-color: rgb(215, 2, 2);
@@ -170,6 +173,7 @@ body {
   font-size: x-large;
   color: #fbb149fe;
 }
+
 
 /*main*/
 .main {
@@ -231,6 +235,7 @@ body {
   text-align: left;
   display: flex;
   margin: 0;
+  text-decoration: none;
 }
 
 .card-baslik{
@@ -239,4 +244,59 @@ body {
 
 .card-metin{
   color: #868686;
+}
+
+.inner-main-menu-sag a{
+  text-decoration: none;
+}
+
+
+/*trend*/
+.trend{
+  background-color: #efefef;
+  padding: 3% 0px;
+}
+
+.inner-trend{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inner-trend-header img{
+  float: left;
+}
+
+.inner-trend-header-title{
+  float: left;
+}
+
+.inner-trend-header h1{
+  margin: 0;
+}
+
+.inner-trend-header ul{
+  margin: 0;
+  list-style-type: none;
+}
+
+.inner-trend-header li{
+  display: inline;
+  padding: 1%;
+  float: right;
+}
+
+.inner-trend-header u{
+  color: #979797;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.inner-trend-header li:focus{
+  text-decoration: underline;
+}
+
+.inner-trend-header a{
+  text-decoration: none;
 }
