@@ -284,6 +284,7 @@ body {
 .inner-trend-header-title{
   float: left;
   margin-bottom: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .inner-trend-header h1{
@@ -306,10 +307,11 @@ body {
   font-size: medium;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
+  font-weight: bold;
 }
 
-.inner-trend-header li:focus{
-  text-decoration: underline;
+.inner-trend-header li:hover{
+  text-decoration: underline #979797;
 }
 
 .inner-trend-header a{
@@ -366,10 +368,42 @@ body {
   padding: 4%;
 }
 
-
 .trend-card-altbilgi img{
   width: 15%;
   border-radius: 10px;
   float: left;
 }
 
+
+/*videolu*/
+.videolu{
+  overflow: hidden;
+}
+
+.inner-videolu{
+  margin: 0 auto ;
+  width: 70%;
+  text-align: center;
+}
+
+.inner-videolu h1 > img{
+  float: left;
+}
+
+.inner-videolu h1{
+  margin: 1%;
+  overflow: hidden;
+}
+.inner-videolu table{
+  margin: 5% 0px;
+  width: 100%;
+}
+
+.inner-videolu td{
+  width: 100%;
+}
+
+.inner-videolu-sol-cell iframe{
+  width: 100%;
+  aspect-ratio: 2/1;
+}
