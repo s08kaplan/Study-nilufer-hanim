@@ -3,6 +3,16 @@ body {
   margin: 0;
 }
 
+.tum-buttonu{
+  background-color: #ea3737 ;
+  margin: 5%;
+  padding: 2% 7%;
+  border-radius: 5px;
+}
+
+.tum-buttonu span{
+  font-size: medium;
+}
 
 /*upper-bar*/
 .upper-bar {
