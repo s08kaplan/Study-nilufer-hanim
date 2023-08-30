@@ -12,6 +12,13 @@ body {
 
 .tum-buttonu span{
   font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tum-buttonu a{
+  color: black;
+  text-decoration: none;
 }
 
 /*upper-bar*/
@@ -165,7 +172,7 @@ body {
 }
 
 .inner-nav li {
-  border-right: solid 2px rgb(255, 106, 0);
+  border-right: solid 2px #ff6a00;
 }
 
 .inner-nav-profilo {
@@ -388,22 +395,81 @@ body {
 
 .inner-videolu h1 > img{
   float: left;
+  margin-right: 1%;
 }
 
 .inner-videolu h1{
-  margin: 1%;
+  margin-top: 3%;
   overflow: hidden;
 }
+
+.inner-videolu-header-title{
+  float: left;
+  margin-bottom: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .inner-videolu table{
-  margin: 5% 0px;
+  margin: 3% 0px;
   width: 100%;
 }
 
 .inner-videolu td{
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fbfbfb;
+  border-style: solid solid none;
+  border-color: rgb(200, 200, 200);
+  border-radius: 4px;
 }
 
 .inner-videolu-sol-cell iframe{
   width: 100%;
-  aspect-ratio: 2/1;
+  aspect-ratio: 1.35/1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.inner-videolu-sol-cell{
+  padding: 0px;
+}
+
+.inner-videolu-sol-cell .fa-play-circle{
+  font-size :3em ;
+  float: left;
+  padding: 4% 2%;
+  color: #ea3737;
+} 
+
+.videolu-buyuk-card-baslik{
+  text-align: left;
+  font-size: x-large;
+  margin:0;
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.videolu-buyuk-card-metin{
+  text-align: left;
+  margin: 0;
+}
+
+.videolu-yan-card .fa-play-circle{
+  color:#ea3737;
+  font-size :2em ;
+  float: left;
+  padding: 3% 1%;
+}
+
+.videolu-yan-card p{
+  text-align: left;
+  font-size: large;
+  margin:5%;
+  font-weight: bold;
+}
+
+.videolu-yan-card iframe{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
