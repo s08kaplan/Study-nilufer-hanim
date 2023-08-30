@@ -21,6 +21,12 @@ body {
   text-decoration: none;
 }
 
+.large-reklam img {
+  width: 100%;
+  margin: 1% auto;
+}
+
+
 /*upper-bar*/
 .upper-bar {
   background-color: #f0f0f0;
@@ -201,11 +207,6 @@ body {
   width: 70%;
   text-align: center;
   margin: 0 auto;
-}
-
-.large-reklam img {
-  width: 100%;
-  margin: 1% auto;
 }
 
 .inner-main-menu {
@@ -472,4 +473,45 @@ body {
 .videolu-yan-card iframe{
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+}
+
+
+/*evdeki malzemeler*/
+.evdeki-malzemeler{
+  overflow: hidden;
+  background-color: #efefef;
+}
+
+.inner-evdeki-malzemeler{
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.inner-evdeki-malzemeler h4{
+  font-size: x-large;
+  margin: 5% 0 2%;
+}
+.inner-evdeki-malzemeler p{
+  font-size: small;
+  color: #979797;
+}
+
+.inner-evdeki-malzemeler ul{
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.inner-evdeki-malzemeler li{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  background-color: rgb(251, 251, 251);
+  /* aspect-ratio: 1 / 0.29; */
+  border-color: rgb(200, 200, 200);
+  display: inline-block;
+  width: 10%;
+}
+
+.inner-evdeki-malzemeler li img{
+  width: 100%;
 }
