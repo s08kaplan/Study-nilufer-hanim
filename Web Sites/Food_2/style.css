@@ -3,6 +3,17 @@ body {
   margin: 0;
 }
 
+header span{
+  float: left;
+  margin-bottom: 1%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .tum-buttonu{
   background-color: #ea3737 ;
   margin: 5%;
@@ -289,11 +300,6 @@ body {
   float: left;
 }
 
-.inner-trend-header-title{
-  float: left;
-  margin-bottom: 1%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 .inner-trend-header h1{
   margin: 0;
@@ -367,12 +373,10 @@ body {
 }
 
 .fa-comment{
-  float: right;
   padding: 4%;
 }
 
 .fa-book-open{
-  float: right;
   padding: 4%;
 }
 
@@ -547,4 +551,83 @@ body {
 
 #evdeki-malzemeler-arti-ilk{
   margin-left: 4%;
+}
+
+
+/*yeniyemek tarifleri*/
+.yeni{
+  overflow: hidden;
+  background-color: #ea3737;
+}
+
+.inner-yeni{
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.inner-yeni header{
+  overflow: hidden;
+  display: block;
+  margin: 1%;
+}
+.inner-yeni header img{
+  float: left;
+}
+
+.inner-yeni td{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fbfbfb;
+  border-style: solid solid none;
+  border-color: rgb(200, 200, 200);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.inner-yeni td a{
+  text-decoration: none;
+  color: black;
+}
+
+.inner-yeni td a > img {
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.yeni-card-baslik{
+  margin: 1%;
+  text-align: left;
+}
+
+.yeni-card-metin{
+  margin: 1%;
+  text-align: left;
+}
+
+.yeni-card-altbilgi{
+  overflow: hidden;
+}
+
+.yeni-card-altbilgi img {
+  width: 15%;
+  border-radius: 10px;
+  float: left;
+}
+
+.yeni-card-altbilgi span{
+  float: left;
+  padding: 2%;
+  padding-top: 3%;
+}
+
+.inner-yeni button{
+  background-color: white;
+  border: none;
+}
+
+.inner-yeni span, .inner-yeni i{
+  color: #ea3737;
 }
