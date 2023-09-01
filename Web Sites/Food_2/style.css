@@ -944,8 +944,14 @@ header h1 {
 .yazarlar-card-footer{
   background-color: #979797;
   color: #ff3f3f;
+  border-radius: 5px;
 }
 
 .yazarlar-card-footer p{
   margin: 0;
+}
+
+.inner-yazarlar button{
+  color: white;
+  border-color: white ;
 }
