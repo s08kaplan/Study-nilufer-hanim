@@ -877,6 +877,7 @@ header h1 {
   margin: 0 auto;
   overflow: hidden;
   width: 70%;
+  text-align: center;
 }
 
 .inner-yazarlar header{
@@ -951,7 +952,19 @@ header h1 {
   margin: 0;
 }
 
-.inner-yazarlar button{
-  color: white;
-  border-color: white ;
+.inner-yazarlar .tum-buttonu{
+  border: solid white;
 }
+
+.inner-yazarlar .tum-buttonu span{
+  color: white;
+}
+
+.inner-yazarlar .tum-buttonu:hover {
+  background-color: white;
+}
+
+.inner-yazarlar .tum-buttonu span:hover{
+  color: #ff3f3f;
+}
+
