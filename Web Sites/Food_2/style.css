@@ -693,3 +693,49 @@ header h1 {
 .inner-yemek-listeleri .tum-buttonu{
   border:none
 }
+
+
+/*mobil*/
+.mobil{
+  overflow: hidden;
+  background-color: #ffad65;
+}
+
+.inner-mobil{
+  overflow: hidden;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+  margin: 4% auto ;
+}
+
+.inner-mobil-tanitim-paragraflar{
+  width: 65%;
+  text-align: left;
+  font-size: large;
+  color: white;
+  float: left;
+}
+
+.inner-mobil-tanitim > img{
+  width: 30%;
+  float: right;
+}
+
+.inner-mobil-tanitim-paragraflar span{
+  vertical-align: super;
+}
+
+
+/*mobil indir*/
+.mobil-indir{
+  overflow: hidden;
+  background-color: #ff3f3f;
+}
+
+.inner-mobil-indir{
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
