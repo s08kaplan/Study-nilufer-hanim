@@ -767,3 +767,51 @@ header h1 {
   font-size: xx-large;
   float: left;
 }
+
+
+/*en cok*/
+.en-cok{
+  overflow: hidden;
+  background-color: #efefef;
+}
+
+.inner-en-cok{
+  text-align: center;
+  width: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.inner-en-cok header{
+  overflow: hidden;
+}
+
+.inner-en-cok header img{
+  float: left;
+}
+
+.inner-en-cok header ul{
+  list-style-type: none;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.inner-en-cok header li{
+  display: inline;
+  padding: 1%;
+  float: right;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.inner-en-cok header li:hover{
+  text-decoration: underline #979797;
+}
+
+.inner-en-cok header a{
+  color: #979797;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
