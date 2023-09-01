@@ -19,6 +19,7 @@ header h1 {
   margin: 5%;
   padding: 2% 7%;
   border-radius: 5px;
+  border: none;
 }
 
 .tum-buttonu span{
@@ -817,3 +818,51 @@ header h1 {
 }
 
 /*en cok table*/
+.inner-en-cok td{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fbfbfb;
+  border-style: solid solid none;
+  border-color: rgb(200, 200, 200);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.inner-en-cok td a{
+  text-decoration: none;
+  color: black;
+}
+
+.inner-en-cok td a > img {
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.en-cok-card-baslik{
+  margin: 1%;
+  text-align: left;
+}
+
+.en-cok-card-metin{
+  margin: 1%;
+  text-align: left;
+}
+
+.en-cok-card-altbilgi{
+  overflow: hidden;
+}
+
+.en-cok-card-altbilgi img {
+  width: 15%;
+  border-radius: 10px;
+  float: left;
+}
+
+.en-cok-card-altbilgi span{
+  float: left;
+  padding: 2%;
+  padding-top: 3%;
+}
+
+
