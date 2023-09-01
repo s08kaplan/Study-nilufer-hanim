@@ -968,3 +968,49 @@ header h1 {
   color: #ff3f3f;
 }
 
+
+/*ilginizi cekebilir*/
+.ilgi{
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.inner-ilgi{
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.inner-ilgi header img{
+  float: left;
+  width: 5%;
+}
+
+.inner-ilgi-daha-fazla{
+  float: right;
+  vertical-align: middle;
+  margin: 1% auto 0;
+}
+
+/*ilginizi cekebilir table1*/
+.inner-ilgi-tanitim{
+  margin-top: 10%;
+}
+
+.inner-ilgi-tanitim td{
+  background-image: url(./images/zencefil.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* You can use 'contain', '100%', or 'auto' based on your needs */
+  width: 25%;
+  height: 250px;
+}
+.inner-ilgi-tanitim td img{
+  width: 100%;
+}
+
+.inner-ilgi-tanitim-main-card{
+  width: 50%;
+  
+}
