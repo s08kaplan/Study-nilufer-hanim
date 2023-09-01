@@ -785,6 +785,7 @@ header h1 {
 
 .inner-en-cok header{
   overflow: hidden;
+  margin: 2% auto;
 }
 
 .inner-en-cok header img{
@@ -866,3 +867,85 @@ header h1 {
 }
 
 
+/* yazarlar*/
+.yazarlar{
+  overflow: hidden;
+  background-color: #ff3f3f;
+}
+
+.inner-yazarlar{
+  margin: 0 auto;
+  overflow: hidden;
+  width: 70%;
+}
+
+.inner-yazarlar header{
+  overflow: hidden;
+  margin: 2% auto;
+}
+
+.inner-yazarlar header img{
+  float: left;
+  width: 3%;
+}
+
+.inner-yazarlar header span{
+  color: white;
+}
+
+.inner-yazarlar td{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fbfbfb;
+  border-style: solid solid none;
+  border-color: rgb(200, 200, 200);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.inner-yazarlar td a{
+  text-decoration: none;
+  color: black;
+}
+
+.inner-yazarlar td a > img {
+  width: 50%;
+  border-radius: 50%;
+  border: black solid;
+  margin-top: 10%;
+}
+
+.yazarlar-yazar-isim{
+  font-weight: bold;
+}
+
+.yazarlar-yazar-takipci{
+  font-size: small;
+}
+
+.inner-yazarlar td a > p{
+  margin: 0;
+}
+
+
+.yazarlar-card-footer{
+  padding: 10%;
+}
+
+.yazarlar-card-footer:hover{
+  background-color: #ff3f3f;
+  color: white;
+}
+
+.inner-yazarlar hr{
+  margin: 0;
+}
+
+.yazarlar-card-footer{
+  background-color: #979797;
+  color: #ff3f3f;
+}
+
+.yazarlar-card-footer p{
+  margin: 0;
+}
