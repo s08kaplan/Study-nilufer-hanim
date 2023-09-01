@@ -706,7 +706,7 @@ header h1 {
   margin: 0 auto;
   width: 70%;
   text-align: center;
-  margin: 4% auto ;
+  margin: 3% auto 4% ;
 }
 
 .inner-mobil-tanitim-paragraflar{
@@ -726,6 +726,10 @@ header h1 {
   vertical-align: super;
 }
 
+.inner-mobil-tanitim-paragraflar-baslik{
+  font-size: x-large;
+}
+
 
 /*mobil indir*/
 .mobil-indir{
@@ -738,4 +742,28 @@ header h1 {
   margin: 0 auto;
   text-align: center;
   width: 70%;
+  margin: 1% auto;
+  color: white;
+}
+
+.inner-mobil-indir > p{
+  float: left;
+  font-size: large;
+  font-weight: 700;
+}
+
+.inner-mobil-indir > button{
+  float: right;
+  margin-left: 1%;
+  width: 15%;
+  background-color: #ff3f3f;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.inner-mobil-indir button i{
+  font-size: xx-large;
+  float: left;
 }
