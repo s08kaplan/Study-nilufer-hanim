@@ -997,48 +997,69 @@ header h1 {
   margin: 1% auto 0;
 }
 
-/* Liste öğelerini hedefleyen CSS kuralları */
-.ilgi-tanitim-liste-sol,
-.ilgi-tanitim-liste-orta,
-.ilgi-tanitim-liste-sag {
-  list-style: none; /* Liste işaretlerini gizler */
-  /*text-align: center; /* Metni ortalar */
-  margin: 10px 0; /* Liste öğeleri arasında boşluk bırakır */
-  width: 50%;
+/*liste*/
+.inner-ilgi-tanitim{
+  overflow: hidden;
+  display: inline;
+}
+.inner-ilgi-tanitim ul >li{
+  display: inline-block;
+}
+.inner-ilgi-tanitim ul{
+  list-style-type: none;
+  padding-left: 0;
+  float: left;
+}
+.sol, .sag{
+  width: 40%;
+}
+.ilgi-tanitim-liste-sol img, .ilgi-tanitim-liste-sag img{
+  width: 100%;
 }
 
-/* Resimleri hedefleyen CSS kuralları */
-.ilgi-tanitim-liste-sol img,
-.ilgi-tanitim-liste-sag img {
-  max-width: 40%; /* Resimlerin maksimum genişlikte olmasını sağlar */
-  height: auto; /* Yüksekliği otomatik olarak ayarlar */
-}
-
-/* Metinleri hedefleyen CSS kuralları */
 .ilgi-tanitim-liste-sol span,
 .ilgi-tanitim-liste-orta span,
 .ilgi-tanitim-liste-sag span {
   display: block; /* Metni blok element olarak görüntüler */
 }
-.ilgi-tanitim-liste-sol{
-  float: left;
+/*
+/* Liste öğelerini hedefleyen CSS kuralları */
+/*.ilgi-tanitim-liste-sol,
+.ilgi-tanitim-liste-orta,
+.ilgi-tanitim-liste-sag {
+  /*list-style: none; /* Liste işaretlerini gizler */
+  /*text-align: center; /* Metni ortalar */
+ /* margin: 10px 0; /* Liste öğeleri arasında boşluk bırakır */
+ /* width: 50%;
+}*/
+
+/* Resimleri hedefleyen CSS kuralları */
+/*.ilgi-tanitim-liste-sol img,
+.ilgi-tanitim-liste-sag img {
+  max-width: 40%; /* Resimlerin maksimum genişlikte olmasını sağlar */
+  /*height: auto; /* Yüksekliği otomatik olarak ayarlar */
+/*}
+
+/* Metinleri hedefleyen CSS kuralları */
+/*.ilgi-tanitim-liste-sol span,
+.ilgi-tanitim-liste-orta span,
+.ilgi-tanitim-liste-sag span {
+  display: block; /* Metni blok element olarak görüntüler */
+/* } */
+
+
+.inner-ilgi-yt{
+  background-color: #ff3f3f;
 }
-
-.ilgi-tanitim-liste-sag{
-  float: right;
+.inner-ilgi-yt button{
+  background-color: #ea3737;
 }
-
-
-.ilgi-tanitim-liste-orta img{
-  width: 50%;
+.inner-ilgi-yt button span{
+  color: white;
 }
-
-.sag{
-  display: flex;
-  width: 50%;
-}
-
-.sol{
-  display: flex;
-  width: 50%;
+.inner-ilgi-yt p{
+  display: inline;
+  background-color: #ddd;
+  color: white;
+  width: 5%;
 }
