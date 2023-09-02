@@ -982,6 +982,10 @@ header h1 {
   width: 70%;
 }
 
+.inner-ilgi header{
+  overflow: hidden;
+}
+
 .inner-ilgi header img{
   float: left;
   width: 5%;
@@ -993,24 +997,48 @@ header h1 {
   margin: 1% auto 0;
 }
 
-/*ilginizi cekebilir table1*/
-.inner-ilgi-tanitim{
-  margin-top: 10%;
-}
-
-.inner-ilgi-tanitim td{
-  background-image: url(./images/zencefil.jpg);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* You can use 'contain', '100%', or 'auto' based on your needs */
-  width: 25%;
-  height: 250px;
-}
-.inner-ilgi-tanitim td img{
-  width: 100%;
-}
-
-.inner-ilgi-tanitim-main-card{
+/* Liste öğelerini hedefleyen CSS kuralları */
+.ilgi-tanitim-liste-sol,
+.ilgi-tanitim-liste-orta,
+.ilgi-tanitim-liste-sag {
+  list-style: none; /* Liste işaretlerini gizler */
+  /*text-align: center; /* Metni ortalar */
+  margin: 10px 0; /* Liste öğeleri arasında boşluk bırakır */
   width: 50%;
-  
+}
+
+/* Resimleri hedefleyen CSS kuralları */
+.ilgi-tanitim-liste-sol img,
+.ilgi-tanitim-liste-sag img {
+  max-width: 40%; /* Resimlerin maksimum genişlikte olmasını sağlar */
+  height: auto; /* Yüksekliği otomatik olarak ayarlar */
+}
+
+/* Metinleri hedefleyen CSS kuralları */
+.ilgi-tanitim-liste-sol span,
+.ilgi-tanitim-liste-orta span,
+.ilgi-tanitim-liste-sag span {
+  display: block; /* Metni blok element olarak görüntüler */
+}
+.ilgi-tanitim-liste-sol{
+  float: left;
+}
+
+.ilgi-tanitim-liste-sag{
+  float: right;
+}
+
+
+.ilgi-tanitim-liste-orta img{
+  width: 50%;
+}
+
+.sag{
+  display: flex;
+  width: 50%;
+}
+
+.sol{
+  display: flex;
+  width: 50%;
 }
