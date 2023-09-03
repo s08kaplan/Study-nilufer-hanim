@@ -997,59 +997,91 @@ header h1 {
   margin: 1% auto 0;
 }
 
-/*liste*/
 .inner-ilgi-tanitim{
   overflow: hidden;
-  display: inline;
-}
-.inner-ilgi-tanitim ul >li{
-  display: inline-block;
+  display: flex;
+  margin: 2% auto;
 }
 .inner-ilgi-tanitim ul{
   list-style-type: none;
   padding-left: 0;
-  float: left;
 }
 .sol, .sag{
-  width: 40%;
+  width: 25%;
 }
-.ilgi-tanitim-liste-sol img, .ilgi-tanitim-liste-sag img{
+.orta{
+  width: 45%;
+  margin: auto 2.5%;
+}
+.sol img, .sag img, .orta img{
   width: 100%;
 }
-
 .ilgi-tanitim-liste-sol span,
 .ilgi-tanitim-liste-orta span,
 .ilgi-tanitim-liste-sag span {
   display: block; /* Metni blok element olarak görüntüler */
 }
-/*
-/* Liste öğelerini hedefleyen CSS kuralları */
-/*.ilgi-tanitim-liste-sol,
-.ilgi-tanitim-liste-orta,
-.ilgi-tanitim-liste-sag {
-  /*list-style: none; /* Liste işaretlerini gizler */
-  /*text-align: center; /* Metni ortalar */
- /* margin: 10px 0; /* Liste öğeleri arasında boşluk bırakır */
- /* width: 50%;
-}*/
 
-/* Resimleri hedefleyen CSS kuralları */
-/*.ilgi-tanitim-liste-sol img,
-.ilgi-tanitim-liste-sag img {
-  max-width: 40%; /* Resimlerin maksimum genişlikte olmasını sağlar */
-  /*height: auto; /* Yüksekliği otomatik olarak ayarlar */
-/*}
-
-/* Metinleri hedefleyen CSS kuralları */
-/*.ilgi-tanitim-liste-sol span,
-.ilgi-tanitim-liste-orta span,
-.ilgi-tanitim-liste-sag span {
-  display: block; /* Metni blok element olarak görüntüler */
-/* } */
+.inner-ilgi-content{
+  overflow:hidden ;
+  background-color: whitesmoke;
+  display: flex;
+  padding: 5%;
+}
+.content-sol{
+  width: 60%;
+}
+.content-sag{
+  width: 40%;
+}
+.content-sol img{
+  width: 100%;
+}
+.content-sol h3, .content-sol p, .content-sol a{
+  text-align: left;
+  display: block;
+}
+.content-sag img{
+  width: 40%;
+  aspect-ratio: 1.3/1;
+  margin: 0 1% 5% 3%;
+}
+.content-sag-card{
+  display: flex;
+}
+.content-sag-card h4{
+  text-align: left;
+  color: #979797;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: large;
+}
+.content-sol h3{
+  font-size: x-large;
+}
+.content-sol p{
+  color: #979797;
+}
+.content-sol a{
+  text-decoration: none;
+  color: #ea3737;
+  font-weight: bold;
+}
+.content-sol a span{
+  margin-left: 3%;
+}
+.content-sol hr{
+  width: 25%;
+  margin-left: 0;
+}
+.content-sol a span:hover{
+  text-decoration: underline;
+}
 
 
 .inner-ilgi-yt{
   background-color: #ff3f3f;
+  height: 50px;
 }
 .inner-ilgi-yt button{
   background-color: #ea3737;
