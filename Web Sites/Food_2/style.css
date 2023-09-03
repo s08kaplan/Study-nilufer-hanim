@@ -124,6 +124,7 @@ header h1 {
 
 .search-bar input[type="text"] {
   border: 1px solid #ccc;
+  width: 70%;
 }
 
 .tarif-gonder-button {
@@ -1185,6 +1186,12 @@ header h1 {
   color: #555555;
   margin: 1%;
 }
+.alt-nav-alt-sol{
+  overflow: hidden;
+  margin: 2% auto;
+  float: left;
+  width: 60%;
+}
 .alt-nav-alt-sol a{
   float: left;
   margin-right: 2%;
@@ -1195,6 +1202,7 @@ header h1 {
 }
 .alt-nav-alt-sag{
   float: right;
+  margin: 2% auto 3%;
 }
 .youtube{
   color: #ea3737;
@@ -1207,4 +1215,45 @@ header h1 {
 }
 .pinterest{
   color: #bd081b;
+}
+
+
+/*footer*/
+.footer{
+  background-color: #ffad65;
+  overflow: hidden;
+}
+.inner-footer{
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer-sol{
+  float:left;
+  width: 50%;
+}
+.footer-sag{
+  float: right;
+  margin: 3%;
+}
+.footer-sol p, .footer-sol-butonlar i, .footer-sol-butonlar span, .footer-sag p{
+  color: white;
+}
+.footer-sol-butonlar button{
+  border-color: white;
+  background-color: #ffad65;
+  width: 30%;
+}
+.footer-sol-butonlar i{
+  font-size: x-large;
+  float: left;
+}
+.footer-sol p, .footer-sag p{
+  font-weight: 600;
+}
+
+.search-container{
+  float: left;
+  overflow: hidden;
+  width: 60%;
 }
