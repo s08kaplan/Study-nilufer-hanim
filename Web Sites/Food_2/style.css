@@ -1159,6 +1159,7 @@ header h1 {
 /*backround*/
 .alt-nav{
   background-color: #ededed;
+  overflow: hidden;  /* hr adn sonrasina da etki etmesi icin*/
 }
 /*width*/
 .inner-alt-nav{
@@ -1169,12 +1170,10 @@ header h1 {
 .alt-nav-ust{
   display: flex;  /* divlerin yanyana gelmesi*/
 }
-/*a larin altalta olmasi*/
-/* .alt-nav-ust div{
-  display: inline-block;
-} */
 .alt-nav-ust ul{
   list-style-type: none;
+  padding: 0;
+  margin-right: 2%;
 }
 .alt-nav-ust ul li {
   display: block ;   /*div'e göre tek bir element oluşturulursa bu satır gereklidir.*/
@@ -1183,6 +1182,29 @@ header h1 {
 /*divlerdeki yazi stili*/
 .alt-nav-ust div ul li a{
   text-decoration: none;
-  color: #868686;
+  color: #555555;
   margin: 1%;
+}
+.alt-nav-alt-sol a{
+  float: left;
+  margin-right: 2%;
+  text-decoration: none;
+  color: #ff3f3f;
+  font-size: medium;
+  font-weight: bold;
+}
+.alt-nav-alt-sag{
+  float: right;
+}
+.youtube{
+  color: #ea3737;
+}
+.twitter{
+  color: #6bc9ff;
+}
+.instagram{
+  color:#c84a8d;
+}
+.pinterest{
+  color: #bd081b;
 }
