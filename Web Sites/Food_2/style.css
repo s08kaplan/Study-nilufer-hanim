@@ -1082,12 +1082,13 @@ header h1 {
 .inner-ilgi-yt{
   background-color: #ff3f3f;
   height: 75px;
+  margin-bottom: 2%;
 }
 .yt-paragraf{
   display: inline;
   float: left;
   margin-left: 4%;
-  margin-top: 2.8%;
+  margin-top: 3.5%;
 }
 .yt-aciklama{
   display: inline;
@@ -1103,6 +1104,6 @@ header h1 {
 }
 .yt-button-aciklama{
   float: right;
-  margin-top: 2.8%;
+  margin-top: 3.5%;
   margin-right: 4%;
 }
