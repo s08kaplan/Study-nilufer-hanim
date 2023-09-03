@@ -1088,7 +1088,7 @@ header h1 {
   display: inline;
   float: left;
   margin-left: 4%;
-  margin-top: 3.5%;
+  margin-top: 3%;
 }
 .yt-aciklama{
   display: inline;
@@ -1104,6 +1104,52 @@ header h1 {
 }
 .yt-button-aciklama{
   float: right;
-  margin-top: 3.5%;
+  margin-top: 3%;
   margin-right: 4%;
+}
+
+
+/*uye ol*/
+/*backround rengi*/
+.uye-ol{
+  background:#ff3f3f;
+}
+/*contentin olacagi kismin eni, margini*/
+.inner-uye-ol{
+  width :70%;
+  margin: 0 auto;
+  display: flex;
+}
+/*yazilarin divinin boyutu*/
+.uye-ol-aciklama{
+  display: block;
+  width:60%;
+}
+/*yazilarin boyutu*/
+.uye-ol-aciklama-buyuk{
+  font-weight: 600;
+  font-size: large;
+  color: white;
+  padding-top: 2%;
+}
+.uye-ol-aciklama-kucuk{
+  color: white;
+  padding-bottom: 4%;
+}
+/* buton ozellikleri */
+.inner-uye-ol-buton{
+  width: 40%;
+  float: right;
+}
+.inner-uye-ol-buton button{
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height:50px;
+  margin-top: 8%;
+}
+.inner-uye-ol-buton button a{
+  text-decoration: none;
+  color: #ff3f3f;
 }
