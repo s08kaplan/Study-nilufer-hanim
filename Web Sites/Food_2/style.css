@@ -1153,3 +1153,36 @@ header h1 {
   text-decoration: none;
   color: #ff3f3f;
 }
+
+
+/*alt nav*/
+/*backround*/
+.alt-nav{
+  background-color: #ededed;
+}
+/*width*/
+.inner-alt-nav{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+.alt-nav-ust{
+  display: flex;  /* divlerin yanyana gelmesi*/
+}
+/*a larin altalta olmasi*/
+/* .alt-nav-ust div{
+  display: inline-block;
+} */
+.alt-nav-ust ul{
+  list-style-type: none;
+}
+.alt-nav-ust ul li {
+  display: block ;   /*div'e göre tek bir element oluşturulursa bu satır gereklidir.*/
+  margin-bottom: 5%;
+}
+/*divlerdeki yazi stili*/
+.alt-nav-ust div ul li a{
+  text-decoration: none;
+  color: #868686;
+  margin: 1%;
+}
